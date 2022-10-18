@@ -5,3 +5,5 @@
 3. cat derby.txt | sed 's/ //g' | sed 's/,/ /g' | awk '{print $3,$4,$5}' | grep empate | sort -k3 -n | awk '{print $2,$3}' > empate.txt 
 
 4. cat derby.txt | sed 's/ //g' | sed 's/,/ /g' | awk '{print $3,$4,$5}' | grep Levante | sort -n -k3 | awk '{print $2,$3}' > levante.txt
+
+5. cat derby.txt | sed 's/ //g' | sed 's/,/ /g' | awk '{print $3,$4,$5}' | grep Valencia | sort -k3 -n | awk '{print $2,$3}' > valencia.txt
